@@ -3,7 +3,7 @@ Supplementary repository for the research on **An End-to-End Graph Neural Networ
 This repository includes
 * All code needed to reproduce the experiments.
 * Instructions to setup the used environment to run the experiments.
-* The datasources needed as Inputs for the experiments.
+* The data sources needed as inputs for the experiments.
 * The evaluation results.
 * The pre trained models.
 
