@@ -4,7 +4,7 @@ from torch.nn import Linear
 from torch_geometric.nn import GCNConv, SAGEConv, GraphConv
 
 
-class Net(torch.nn.Module):
+class TheModel(torch.nn.Module):
     def __init__(
             self,
             gene_feature_dim,
@@ -14,7 +14,7 @@ class Net(torch.nn.Module):
             disease_net_hidden_dim=512,
             mode='DGP'
     ):
-        super(Net, self).__init__()
+        super(TheModel, self).__init__()
         self.mode = mode
         fc_gene_classification_hidden_dim = fc_hidden_dim
 
